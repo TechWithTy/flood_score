@@ -1,0 +1,12 @@
+[project]
+name = "flood-score-sdk"
+version = "0.1.0"
+description = "Provider-agnostic flood score client"
+requires-python = ">=3.10"
+dependencies = [
+  "requests>=2.31",
+  "pydantic>=2.4",
+]
+
+[tool.pytest.ini_options]
+testpaths = ["_tests"]
