@@ -11,7 +11,7 @@ SDK and FastAPI proxy for a Flood Score provider, aligned with other integration
 Example .env:
 FLOOD_SCORE_BASE_URL=https://www.fema.gov/flood-maps/products-tools/hazus
 FLOOD_SCORE_API_KEY=your_api_key_if_required
-FLOOD_SCORE_TIMEOUT=15sas
+FLOOD_SCORE_TIMEOUT=15
 
 ## Endpoints
 
